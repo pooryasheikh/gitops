@@ -8,3 +8,4 @@ externalDatabase:
   user: bn_joomla
   password: ""
   database: bitnami_joomla
+joomlaPassword: demo
