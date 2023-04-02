@@ -1,6 +1,6 @@
-fullnameOverride: joomla-prod
+fullnameOverride: joomla-stag
 externalDatabase:
   host: mysql
   user: root
-  password: demo
+  password: demo-stag
   database: demo
