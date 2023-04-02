@@ -3,7 +3,7 @@ kind: Kustomization
 resources:
   - helm-release.yaml
 configMapGenerator:
-  - name: joomla-values
+  - name: drupal-values
     files:
       - values.yaml=values.yaml
 configurations:

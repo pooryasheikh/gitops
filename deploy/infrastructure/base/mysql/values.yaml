@@ -1,8 +1,4 @@
 fullnameOverride: mysql
-image:
-  registry: docker.io
-  repository: bitnami/percona-mysql
-  tag: 5.7.38-41-debian-11-r2
 architecture: standalone
 auth:
   rootPassword: "demo"

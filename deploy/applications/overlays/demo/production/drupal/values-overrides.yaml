@@ -1,4 +1,4 @@
-fullnameOverride: joomla-prod
+fullnameOverride: drupal-prod
 externalDatabase:
   host: mysql
   user: root

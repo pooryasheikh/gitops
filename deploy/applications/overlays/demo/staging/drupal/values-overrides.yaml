@@ -1,4 +1,4 @@
-fullnameOverride: joomla-stag
+fullnameOverride: drupal-stag
 externalDatabase:
   host: mysql
   user: root

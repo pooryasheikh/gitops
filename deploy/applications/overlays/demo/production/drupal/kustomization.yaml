@@ -2,8 +2,8 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
-  - ../../../../base/joomla
+  - ../../../../base/drupal
 configMapGenerator:
-- name: joomla-values-overrides
+- name: drupal-values-overrides
   files:
   - values.yaml=values-overrides.yaml

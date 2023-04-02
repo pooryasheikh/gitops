@@ -1,11 +1,11 @@
-fullnameOverride: joomla
+fullnameOverride: drupal
 persistence:
   enabled: false
 mariadb:
   enabled: false
 externalDatabase:
   host: ""
-  user: bn_joomla
+  user: bn_drupal
   password: ""
-  database: bitnami_joomla
-joomlaPassword: demo
+  database: bitnami_drupal
+drupalPassword: demo
