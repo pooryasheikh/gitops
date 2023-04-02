@@ -6,4 +6,4 @@ resources:
 configMapGenerator:
 - name: joomla-values-overrides
   files:
-  - values-overrides.yaml=values.yaml
+  - values.yaml=values-overrides.yaml
