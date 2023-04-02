@@ -1,0 +1,6 @@
+fullnameOverride: joomla-prod
+externalDatabase:
+  host: mysql-master
+  user: root
+  password: demo
+  database: demo

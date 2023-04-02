@@ -1,0 +1,4 @@
+auth:
+  rootPassword: "demo-prod"
+  createDatabase: true
+  database: "demo-prod"

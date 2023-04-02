@@ -1,0 +1,10 @@
+fullnameOverride: joomla
+persistence:
+  enabled: false
+mariadb:
+  enabled: false
+externalDatabase:
+  host: ""
+  user: bn_joomla
+  password: ""
+  database: bitnami_joomla

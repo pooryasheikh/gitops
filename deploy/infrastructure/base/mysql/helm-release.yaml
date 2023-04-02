@@ -1,0 +1,24 @@
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: mysql
+spec:
+  interval: 720h
+  chart:
+    spec:
+      chart: mysql
+      version: '9.4.5'
+      sourceRef:
+        kind: HelmRepository
+        name: bitnami
+        namespace: flux-system
+      interval: 720h
+  upgrade:
+    remediation:
+      remediateLastFailure: true
+  values:
+  valuesFrom:
+    - kind: ConfigMap
+      name: mysql-values
+    - kind: ConfigMap
+      name: mysql-values-overrides

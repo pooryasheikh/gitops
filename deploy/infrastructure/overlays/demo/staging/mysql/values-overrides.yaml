@@ -1,0 +1,4 @@
+auth:
+  rootPassword: "demo-stag"
+  createDatabase: true
+  database: "demo-stag"
