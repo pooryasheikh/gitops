@@ -2,5 +2,5 @@ fullnameOverride: joomla-prod
 externalDatabase:
   host: mysql
   user: root
-  password: demo
+  password: demo-prod
   database: demo-prod
